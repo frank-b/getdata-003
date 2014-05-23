@@ -1,10 +1,16 @@
 run_analysis <- function() {
 
-#set your workingdirectory here
-#a directory called "UCI HAR Dataset" (the samsung dataset) should be in this workingdirectory
+#a directory called "UCI HAR Dataset" (the samsung dataset) should be in your workingdirectory
 #the structure of the unpacked zip-file containing this data should not be changed        
-setwd("C:/Users/Frank/R/Getting and Cleaning Data/Assignment") 
-
+#check your workingdirectory for the UCI HAR Dataset
+        if (!file.exists("UCI HAR Dataset")) {
+                if (!file.exists("getdata_projectfiles_UCI HAR Dataset.zip")) {
+                        stop("was expecting HAR Dataset folder or zip file")
+                } else {
+                        unzip("getdata_projectfiles_UCI HAR Dataset.zip")
+                }
+        }        
+        
 #trick to import only the first number of columns specified here to speed up the build proces
 import_n_rows = NULL
 import_n_rows <- -1 #set -1 for all rows

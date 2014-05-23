@@ -15,8 +15,7 @@ A full description of the dataset is available at the site where the data was ob
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 Important:
-* The workingdirectory can be set in the function
-* A directory called "UCI HAR Dataset" (the samsung dataset) should be in this workingdirectory
+* A directory called "UCI HAR Dataset" (the samsung dataset) should be in your workingdirectory
 * The structure of the unpacked zip-file containing this data should not be changed  
 
 - step 1: the columnnames from /UCI HAR Dataset/features.txt are imported into R
