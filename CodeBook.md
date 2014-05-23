@@ -1,4 +1,4 @@
-# Codebook.txt file for the data used in the script run_analysis.R #
+# Codebook.md file for the data used in the script run_analysis.R #
 
 **Created by:** Frank Boersma
 **Date:** May 2014

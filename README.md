@@ -1,4 +1,4 @@
-# ReadMe.txt file for script run_analysis.R #
+# ReadMe.md file for script run_analysis.R #
 
 **Created by:** Frank Boersma
 **Date:** May 2014
